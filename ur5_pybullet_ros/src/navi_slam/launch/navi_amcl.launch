@@ -1,0 +1,13 @@
+<launch>
+  <arg name="map_file" default="$(find navi_slam)/map/room.yaml"/>
+  <!-- Map server -->
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)" >
+  <param name="frame_id" value="world" />
+  </node>
+
+    <!-- AMCL -->
+  <include file="$(find navi_slam)/launch/amcl.launch"/>
+
+  <include file="$(find navi_slam)/launch/move_base.launch"/> 
+
+</launch>

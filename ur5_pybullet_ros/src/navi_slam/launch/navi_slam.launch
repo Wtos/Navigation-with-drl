@@ -1,0 +1,8 @@
+<launch>
+
+
+  <include file="$(find navi_slam)/launch/gmapping.launch"/>
+
+  <include file="$(find navi_slam)/launch/move_base.launch"/> 
+
+</launch>
