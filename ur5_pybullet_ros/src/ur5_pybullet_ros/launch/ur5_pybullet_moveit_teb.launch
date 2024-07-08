@@ -1,0 +1,11 @@
+<launch>
+  <!-- <include file="$(find ur5_pybullet_ros)/launch/ur5_pybullet_slam_navi.launch">
+        <arg name="use_rviz" value="false"/>
+  </include> -->
+  <include file="$(find ur5_pybullet_ros)/launch/ur5_pybullet_amcl_navi.launch">
+        <arg name="use_rviz" value="false"/>
+  </include>
+
+  <include file="$(find ur5_mobile_moveit)/launch/moveit_ur5_simple.launch"/>
+  <rosparam param="cmd_ratio">1.0</rosparam>
+</launch>
