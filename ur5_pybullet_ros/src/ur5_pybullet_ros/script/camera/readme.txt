@@ -1,0 +1,4 @@
+opencv_python
+scipy
+numpy
+open3d

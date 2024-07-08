@@ -1,0 +1,13 @@
+# UR5.urdf_file =  "ur5_robotiq_85.urdf"
+UR5.urdf_file =  "ur5_robotiq_85_mobile.urdf"
+#原始的
+UR5.base_pos = [0.0, 0.0, 0.05]
+#自己的
+#UR5.base_pos = [0.0, 0.0, 0.00]
+UR5.base_ori = [0, 0, 0, 1]
+UR5.inital_angle = [0.0, -1.5446774605904932, 0.0, -1.3708613585093699, -1.5707970583733368, 0.0009377758247187636]
+UR5.gripper_range = [0.00, 0.1]
+UR5.arm_joint = ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint', 'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint']
+UR5.chassis_joint = ['world_chassis_joint_x', 'world_chassis_joint_y', 'world_chassis_joint_theta', 'world_chassis_joint_fixed']
+UR5.eef_joint = 'ee_fixed_joint'
+UR5.gripper_joint = ['finger_joint', 'right_outer_knuckle_joint',  'left_inner_knuckle_joint','right_inner_knuckle_joint', 'left_inner_finger_joint','right_inner_finger_joint']

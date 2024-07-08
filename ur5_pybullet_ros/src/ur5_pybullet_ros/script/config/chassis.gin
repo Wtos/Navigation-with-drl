@@ -1,0 +1,2 @@
+Chassis.lidar_joint = 'lidar_joint'
+Chassis.imu_joint = 'imu_joint'

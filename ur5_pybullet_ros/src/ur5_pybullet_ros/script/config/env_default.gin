@@ -1,0 +1,4 @@
+Environment.setRealTimeSimulation = 0
+Environment.dt = 0.01
+Environment.realtime_factor = 1.5
+Environment.dynamic_obs_T = 12.0

@@ -1,0 +1,11 @@
+use_config: False
+
+robot:
+  initial_x: 1.0
+  initial_y: 1.0
+
+obstacles: 
+- name: "test5.urdf"
+  pos: [0, 0, 0]
+- name: "cylinder.urdf"
+  pos: [0, 1, 0]
