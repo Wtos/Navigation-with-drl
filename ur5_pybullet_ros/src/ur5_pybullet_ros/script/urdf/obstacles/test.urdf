@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<robot name="qvcdksyxgu">
+	<link name="world" sceneeditor="1">
+		<visual sceneeditor="1">
+			<origin rpy="0.0418879020478639 0 0" xyz="0.089 0.004 1.322"></origin>
+			<geometry>
+				<box size="0.3 0.3 0.3"></box>
+			</geometry>
+			<material>
+				<color rgba="0.14 0.56 1 1"></color>
+			</material>
+		</visual>
+		<collision sceneeditor="1">
+			<origin rpy="0.0418879020478639 0 0" xyz="0.089 0.004 1.322"></origin>
+			<geometry>
+				<box size="0.3 0.3 0.3"></box>
+			</geometry>
+		</collision>
+		<visual sceneeditor="1">
+			<origin rpy="0 0 0" xyz="0 1 0"></origin>
+			<geometry>
+				<sphere radius="0.3"></sphere>
+			</geometry>
+			<material>
+				<color rgba="0.14 0.56 1 1"></color>
+			</material>
+		</visual>
+		<collision sceneeditor="1">
+			<origin rpy="0 0 0" xyz="0 1 0"></origin>
+			<geometry>
+				<sphere radius="0.3"></sphere>
+			</geometry>
+		</collision>
+		<visual sceneeditor="1">
+			<origin rpy="0 0 0" xyz="0 -0.078 1.72"></origin>
+			<geometry>
+				<cylinder length="0.3" radius="0.3"></cylinder>
+			</geometry>
+			<material>
+				<color rgba="0.14 0.56 1 1"></color>
+			</material>
+		</visual>
+		<collision sceneeditor="1">
+			<origin rpy="0 0 0" xyz="0 -0.078 1.72"></origin>
+			<geometry>
+				<cylinder length="0.3" radius="0.3"></cylinder>
+			</geometry>
+		</collision>
+		<visual sceneeditor="1">
+			<origin rpy="0 0 0" xyz="0 2.31 0"></origin>
+			<geometry>
+				<box size="0.3 0.3 0.3"></box>
+			</geometry>
+			<material>
+				<color rgba="0.14 0.56 1 1"></color>
+			</material>
+		</visual>
+		<collision sceneeditor="1">
+			<origin rpy="0 0 0" xyz="0 2.31 0"></origin>
+			<geometry>
+				<box size="0.3 0.3 0.3"></box>
+			</geometry>
+		</collision>
+		<visual sceneeditor="1">
+			<origin rpy="0 0 0" xyz="0.379 0.281 0.144"></origin>
+			<geometry>
+				<box size="0.3 0.3 0.3"></box>
+			</geometry>
+			<material>
+				<color rgba="0.14 0.56 1 1"></color>
+			</material>
+		</visual>
+		<collision sceneeditor="1">
+			<origin rpy="0 0 0" xyz="0.379 0.281 0.144"></origin>
+			<geometry>
+				<box size="0.3 0.3 0.3"></box>
+			</geometry>
+		</collision>
+	</link>
+</robot>

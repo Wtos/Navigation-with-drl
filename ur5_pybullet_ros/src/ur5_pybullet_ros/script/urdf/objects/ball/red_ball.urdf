@@ -1,0 +1,32 @@
+<robot name="ball_red">
+
+  <material name="red">
+    <color rgba="0.8 0.2 0.2 1."/>
+  </material>
+
+  <link name="base_link">
+    <contact>
+      <lateral_friction value="5.0"/>
+      <inertia_scaling value="5.0"/>
+    </contact>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+      <geometry>  
+        <sphere radius="0.03"/>
+      </geometry>
+      <material name="red" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+	 	<sphere radius="0.03"/>
+      </geometry>
+    </collision>
+    <inertial>
+        <origin xyz="0. 0. 0." rpy="0. 0. 0." />
+        <inertia ixz="0.0" ixy="0.0" iyz="0.0" ixx="1.e-2" izz="1.e-2"  iyy="1.e-2" />
+        <mass value="0.01" />
+    </inertial>
+  </link>
+
+</robot>
